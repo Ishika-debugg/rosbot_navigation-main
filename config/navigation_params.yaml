@@ -1,0 +1,10 @@
+navigation_logic_node:
+  ros__parameters:
+    exploration_timeout: 240.0  # 4 minutes
+    total_timeout: 420.0        # 7 minutes
+    spin_time: 5.0              # Spin duration in seconds
+    min_frontier_size: 5        # Minimum size of a valid frontier
+    frontiers_sample_size: 10   # Number of frontier points to sample
+    start_position_tolerance: 0.3  # Distance to consider as "at start position"
+    max_linear_velocity: 0.3    # Maximum linear velocity
+    max_angular_velocity: 0.5   # Maximum angular velocity
