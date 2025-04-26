@@ -26,8 +26,8 @@ def generate_launch_description():
     # Define the node
     navigation_node = Node(
         package='rosbot_navigation',
-        executable='navigation_node',
-        name='navigation_logic_node',
+        executable='navigation_logic',
+        name='navigation_logic',
         output='screen',
         parameters=[
             params_file,
